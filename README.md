@@ -1,6 +1,6 @@
 ### Progress Bar
 
-The complete study mentioned below has been created by [John Washam](https://github.com/jwasham). I plan to go through the plan and finish most of it using Java programming language. Hence I would be storing all the implementations using Java mentioned in the repo and keep a track of my progress in this duplicated repository. Thanks John. Your journey is an inspiration to us. 
+The complete study mentioned below has been created by [John Washam](https://github.com/jwasham). I plan to go through the plan and finish most of it using Java programming language. Hence I would be storing all the implementations using Java mentioned in the repo and keep a track of my progress in this duplicated repository. Thanks John. Your journey is an inspiration to us.
 
 Please refer [Coding Interview University](https://github.com/jwasham/coding-interview-university) for the actual repository.
 
@@ -244,8 +244,8 @@ Sometimes the classes are not in session so you have to wait a couple of months,
 - [ ] Prep Course:
     - [ ] [Software Engineer Interview Unleashed (paid course)](https://www.udemy.com/software-engineer-interview-unleashed):
         - Learn how to make yourself ready for software engineer interviews from a former Google interviewer.
-    - [ ] [Python for Data Structures, Algorithms, and Interviews! (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/): 
-        - A Python centric interview prep course which covers data structures, algorithms, mock interviews and much more. 
+    - [ ] [Python for Data Structures, Algorithms, and Interviews! (paid course)](https://www.udemy.com/python-for-data-structures-algorithms-and-interviews/):
+        - A Python centric interview prep course which covers data structures, algorithms, mock interviews and much more.
 
 ## Pick One Language for the Interview
 
@@ -532,23 +532,23 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
         - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
         - [Jagged Arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Jagged-arrays/149042/177106-4.html)
         - [Resizing arrays (video)](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Resizable-arrays/149042/177108-4.html)
-    - [ ] Implement a vector (mutable array with automatic resizing):
-        - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
-        - [ ] new raw data array with allocated memory
+    - [X] Implement a vector (mutable array with automatic resizing):
+        - [X] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
+        - [X] new raw data array with allocated memory
             - can allocate int array under the hood, just not use its features
             - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
-        - [ ] size() - number of items
-        - [ ] capacity() - number of items it can hold
-        - [ ] is_empty()
-        - [ ] at(index) - returns item at given index, blows up if index out of bounds
-        - [ ] push(item)
-        - [ ] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
-        - [ ] prepend(item) - can use insert above at index 0
-        - [ ] pop() - remove from end, return value
-        - [ ] delete(index) - delete item at index, shifting all trailing elements left
-        - [ ] remove(item) - looks for value and removes index holding it (even if in multiple places)
-        - [ ] find(item) - looks for value and returns first index with that value, -1 if not found
-        - [ ] resize(new_capacity) // private function
+        - [X] size() - number of items
+        - [X] capacity() - number of items it can hold
+        - [X] is_empty()
+        - [X] at(index) - returns item at given index, blows up if index out of bounds
+        - [X] push(item)
+        - [X] insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
+        - [X] prepend(item) - can use insert above at index 0
+        - [X] pop() - remove from end, return value
+        - [X] delete(index) - delete item at index, shifting all trailing elements left
+        - [X] remove(item) - looks for value and removes index holding it (even if in multiple places)
+        - [X] find(item) - looks for value and returns first index with that value, -1 if not found
+        - [X] resize(new_capacity) // private function
             - when you reach capacity, resize to double the size
             - when popping an item, if size is 1/4 of capacity, resize to half
     - [ ] Time
